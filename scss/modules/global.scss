@@ -1,0 +1,73 @@
+article{
+  position: relative;
+  background-color: $white;
+}
+
+.overlay{
+    background-color: rgba(0,0,0,.3);
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    pointer-events: none;
+    z-index: 2;
+    opacity: 0;
+}
+
+.container{
+  width: 1024px;
+  max-width: 100%;
+  margin: 0 auto;
+  position: relative;
+  height: inherit;
+  &:after{
+    display: block;
+    clear: both;
+    content: "";
+  }
+}
+.col-2{
+  width: 50%;
+  float: left;
+  &.col-has-image{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    margin: auto 0;
+  }
+  h1{
+    margin-top: 220px;
+  }
+  h1, p{
+    padding: 0 100px 0 0;
+  }
+  &.pull-right{
+    h1,p{
+      padding: 0 0 0 100px;
+    }
+  }
+}
+
+
+.aw-chat-feature, .aw-team-feature, .aw-update-feature{
+  height: 600px;
+}
+
+.aw-footer-nav{
+  h3{
+    color: rgba($white, 0.2);
+    margin-bottom: 20px;
+  }
+}
+
+.aw-footer-menu{
+  list-style-type: none;
+  &>li{
+    line-height: 36px;
+    &>a{
+      color: $white;
+      cursor: pointer;
+    }
+  }
+}

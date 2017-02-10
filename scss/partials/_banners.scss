@@ -1,0 +1,48 @@
+// Hero Banner
+
+.aw-hero-banner{
+  height: 100vh;
+  max-height: 850px;
+  @include background-image-retina('../images/hero-image', png, 1280px, 850px);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+// Why Banner
+
+.aw-mock-image{
+  width: 911px;
+  height: 609px;
+  margin: 0 auto;
+  @include background-image-retina('../images/aw-mockup-screen', png, 915px, 611px);
+  background-repeat: no-repeat;
+}
+
+
+// Chat banner
+
+.aw-chat-banner{
+  height: 474px;
+  @include background-image-retina('../images/chat-content-image', png, 612px, 474px);
+  background-repeat: no-repeat;
+}
+
+
+// Team Banner
+
+.aw-team-banner{
+  height: 474px;
+  @include background-image-retina('../images/team-content-image', png, 612px, 474px);
+  background-repeat: no-repeat;
+}
+
+// Update Banner
+
+.aw-update-banner{
+  height: 474px;
+  @include background-image-retina('../images/update-content-image', png, 612px, 474px);
+  background-repeat: no-repeat;
+}

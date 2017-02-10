@@ -1,0 +1,92 @@
+%white-text-styles{
+  h1, p{
+    color: $white;
+  }
+}
+
+.pull-right{
+  float: right;
+}
+
+// Hero Banner
+.aw-hero-banner{
+  text-align: center;
+  @extend %white-text-styles;
+  .container{
+    padding-top: calc(50vh + 50px);
+    &>h1{
+      margin-bottom: 5px;
+    }
+    &>p{
+      padding: 0 20%;
+      margin-bottom: 30px;
+    }
+  }
+}
+
+// Why Section
+
+.aw-why-section{
+  background-image: $bg-primary-gradient;
+  text-align: center;
+  padding: 130px 0px;
+  @extend %white-text-styles;
+  .aw-mock-image{
+    margin-bottom: 90px;
+  }
+  h1{
+    max-width: 60%;
+    margin: 0 auto 10px;
+  }
+  p{
+    max-width:45%;
+    margin: 0 auto;
+  }
+}
+
+
+// Chat Section
+
+.aw-chat-feature{
+  .aw-chat-banner{
+    right: 0;
+  }
+}
+
+
+// Team Section
+.aw-team-feature{
+    background-color: $bg-primary;
+    .pull-right{
+      text-align: right;
+    }
+}
+
+// Update Section
+.aw-update-feature{
+  .aw-update-banner{
+    right: 0;
+  }
+}
+
+
+// Footer Section
+
+.aw-footer{
+  background-color: $bg-charade;
+  text-align: center;
+  h1{
+    color: $white;
+    padding-top: 100px;
+    margin-bottom: 40px;
+  }
+  .aw-footer-links{
+    text-align: left;
+    display: flex;
+    margin-top: 100px;
+    padding-bottom: 80px;
+    .aw-footer-nav{
+      margin: 0 100px 0 0;
+    }
+  }
+}

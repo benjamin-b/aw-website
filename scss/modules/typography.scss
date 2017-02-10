@@ -2,8 +2,16 @@
 
 // typography
 
+@font-face {
+  font-family: 'avenir';
+  src: url('/fonts/Avenir-Book.eot?#iefix') format('embedded-opentype'),  url('/fonts/Avenir-Book.woff') format('woff'), url('/fonts/Avenir-Book.ttf')  format('truetype'), url('/fonts/Avenir-Book.svg#Avenir-Book') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
     // font family
-    $font           : 'Effra', Helvetica, Arial, sans-serif;
+    $font           : 'avenir', Helvetica, Arial, sans-serif;
 
     // font weights
     $light          : 300;
@@ -11,3 +19,15 @@
     $medium         : 500;
     $bold           : 700;
     $heavy          : 900;
+
+
+h1{
+  font-size: 36px;
+  font-weight: $bold;
+}
+
+p{
+  font-size: 18px;
+  font-weight: $medium;
+  line-height: 26px;
+}

@@ -45,7 +45,7 @@
         only screen and (min-resolution: 192dpi),
         only screen and (min-resolution: 2dppx){
         & {
-          background-image: url($file + '@2x.' + $type);
+          background-image: url($file + '_2x.' + $type);
         }
       }
     }
