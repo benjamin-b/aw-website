@@ -1,0 +1,26 @@
+@font-face {
+	font-family: "svgicons";
+	src: url('../fonts/svgicons.eot');
+	src: url('../fonts/svgicons.eot?#iefix') format('eot'),
+		url('../fonts/svgicons.woff2') format('woff2'),
+		url('../fonts/svgicons.woff') format('woff'),
+		url('../fonts/svgicons.ttf') format('truetype'),
+		url('../fonts/svgicons.svg#svgicons') format('svg');
+}
+
+.aw-svg:before {
+	font-family: "svgicons";
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	/* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+	text-decoration: none;
+	text-transform: none;
+}
+
+
+.aw-svg-arrow-right:before {
+	content: "\E001";
+}

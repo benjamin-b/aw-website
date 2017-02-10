@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="29px" height="18px" viewBox="0 0 29 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow-right</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="AW-Site" transform="translate(-756.000000, -662.000000)" fill="#FFFFFF">
+            <g id="Cover-">
+                <g id="cta" transform="translate(504.000000, 640.000000)">
+                    <g id="left-arrow" transform="translate(252.000000, 22.000000)">
+                        <path d="M1.25532475,7.74395781 L24.7141834,7.74395781 L19.1166965,2.14354682 C18.6260577,1.65343266 18.6260577,0.857971759 19.1166965,0.367857602 C19.6070634,-0.122619201 20.4021084,-0.122619201 20.8916597,0.367857602 L28.6322248,8.11195141 C29.1225917,8.60206556 29.1225917,9.39752646 28.6322248,9.88764062 L20.8916597,17.6320971 C20.6467028,17.8775168 20.3252592,18 20.0041781,18 C19.683097,18 19.361744,17.8775168 19.1166965,17.6320971 C18.6260577,17.1416203 18.6260577,16.346522 19.1166965,15.8560452 L24.7141834,10.2555436 L1.25532475,10.2555436 C0.562141166,10.2555436 0,9.69317246 0,8.99979601 C0,8.3063289 0.562141166,7.74395781 1.25532475,7.74395781 Z" id="arrow-right"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
